@@ -42,7 +42,9 @@ To ensure the data is accurate, I plotted the boroughs of London using the Foliu
 
 <h3>K-Clustering</h3>
 <p><h6>With all the cleaning and sorting done, the next step was to determine the best number of clusters.</h4></p>
+
 ![image](https://user-images.githubusercontent.com/60607999/80817734-93768f80-8c04-11ea-993d-1cf4bb155438.png)
+
 <h6>Not the best elbow curve expected.. London is after all a metropolitan and many other factors not included in this project could influence the results. As there are 57 boroughs, and based on the elbow plot, k=5 is probably a good number of clusters to have.</h6>
 <p><h6>With the number of clusters decided, the K-means clustering could be done and the result is as below:</p></h6>
 
