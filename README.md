@@ -31,7 +31,9 @@ To ensure the data is accurate, I plotted the boroughs of London using the Foliu
 
 <h3>Now to collect the venues of the different boroughs for clustering later</h3>
 <h6>The getNearbyVenues function was written to loop through the various boroughs and collect it as one dataframe.</h6>
+
 ![image](https://user-images.githubusercontent.com/60607999/80817097-5a89eb00-8c03-11ea-8e72-636fc1e26f54.png)
+
 <h6>To determine the popularity of the various venues, the venues were one hot encoded and the mean of frequency of occurrence of each venue was calculated. Once that was done, the data was collated into a dataframe and sorted. To make things easier, only the top 5 venues were selected.</h6>
 
 ![image](https://user-images.githubusercontent.com/60607999/80817514-28c55400-8c04-11ea-9a4a-cb8113805e67.png)
